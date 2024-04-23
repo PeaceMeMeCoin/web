@@ -382,6 +382,19 @@ body {
     color: #666666;
 }
 
+.section_five .item_more {
+  font-size: 22px;
+  color: #999999;
+  margin-top: 27px;
+  cursor: pointer;
+}
+
+.section_five .item_omit{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
 
 .section_sex {
     padding: 100px 0;
@@ -422,6 +435,31 @@ body {
     padding: 20px 10px;
     font-size: 18px;
     background-color: #fff;
+}
+
+.section_sex .item_msg.item_omit{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  padding: 0 10px;
+}
+
+.section_sex .item_msg.item_omit2{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  padding: 0 10px;
+}
+
+.section_sex .item_more,.section_sex .item_more2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #999999;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
 }
 
 .section_serven {
