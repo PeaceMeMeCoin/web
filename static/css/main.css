@@ -336,6 +336,7 @@ body {
     font-size: 51px;
     color: #333333;
     padding-bottom: 80px;
+    text-transform: uppercase;
 }
 
 .section_five .desc {
@@ -648,7 +649,7 @@ body {
 .section_nine .chart_wrap::after {
     display: block;
     content: '';
-    padding-top: 75%;
+    padding-top: 80%;
 }
 
 /* recent-stories-start */
@@ -1103,6 +1104,14 @@ body {
         font-size: 24px;
     }
 
+    .section_nine .title {
+        font-size: 24px;
+        padding-bottom: 50px;
+    }
+
+    .section_nine {
+        padding: 60px 0;
+    }
     .recent-stories {
         padding-top: 30px;
     }
