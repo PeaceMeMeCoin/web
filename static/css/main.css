@@ -942,6 +942,24 @@ body {
     word-break: break-all;
 }
 
+.wixui-txt{
+  margin-top: 40px;
+  color: #FFFFFF;
+}
+
+.wixui-image{
+  margin-top: 20px;
+}
+
+.wixui-image a+a{
+  margin-left: 20px;
+}
+
+.wixui-image img{
+  width: 170px;
+  height: auto;
+}
+
 /* 手机端 */
 @media (max-width:768px) {
     body {
